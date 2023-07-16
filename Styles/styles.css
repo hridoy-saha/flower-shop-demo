@@ -1,35 +1,68 @@
- .banner{
+ .banner {
     display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
  }
- button{
+
+ button {
     color: #FFFFFF;
     background-color: #E55473;
     border-radius: 8px;
     padding: 20px 43px;
  }
- nav ul{
+
+ nav ul {
     display: flex;
     padding: 20px;
     margin-left: 1000px;
  }
- nav{
+
+ nav {
     display: flex;
  }
- #featured-title{
+
+ #featured-title {
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ .featured {
+    display: flex;
+    margin-top: 50px;
+ }
+
+ .featured img {
+    margin-left: 90px;
+    height: 400px;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+ }
+
+ .delivery {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+ }
+
+ .hot-deal {
+    display: flex;
+ }
+
+ .instagram {
     text-align: center;
  }
- .featured{
-    display: flex;
+
+ footer {
+    background-color: #111010;
+    color: #FFFFFF;
+    height: 50vh;
+    margin-top: 50px;
+    padding-top: 150px;
  }
- .delivery{
-    display: flex;
- }
- .hot-deal{
-    display: flex;
- }
- .instagram{
+
+ footer h2,
+ p {
     text-align: center;
- }
- footer h2,p{
-    text-align: center;
+   
  }
