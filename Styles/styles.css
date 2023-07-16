@@ -1,0 +1,35 @@
+ .banner{
+    display: flex;
+ }
+ button{
+    color: #FFFFFF;
+    background-color: #E55473;
+    border-radius: 8px;
+    padding: 20px 43px;
+ }
+ nav ul{
+    display: flex;
+    padding: 20px;
+    margin-left: 1000px;
+ }
+ nav{
+    display: flex;
+ }
+ #featured-title{
+    text-align: center;
+ }
+ .featured{
+    display: flex;
+ }
+ .delivery{
+    display: flex;
+ }
+ .hot-deal{
+    display: flex;
+ }
+ .instagram{
+    text-align: center;
+ }
+ footer h2,p{
+    text-align: center;
+ }
