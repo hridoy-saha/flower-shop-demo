@@ -1,5 +1,6 @@
  .banner {
     display: flex;
+    gap: 50px;
     background-color: rgba(229, 84, 115, 0.10);
  }
 
@@ -9,29 +10,68 @@
     border-radius: 8px;
     padding: 20px 43px;
  }
+ ul a{
+   text-decoration: none;
+ }
 
  nav ul {
+   gap: 50px;
     display: flex;
     padding: 20px;
-    margin-left: 1000px;
+    margin-left: 1100px;
  }
 
  nav {
     display: flex;
  }
+.banner-info button{
+   margin-left: 260px;
+}
+ #banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+
+ #banner-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+ }
 
  #featured-title {
+    color: #272727;
     text-align: center;
     margin-top: 50px;
  }
 
+ #featured-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
  .featured {
     display: flex;
-    margin-top: 50px;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
  }
 
  .featured img {
-    margin-left: 90px;
+    margin-left: 130px;
     height: 400px;
     width: 300px;
     border-radius: 300px 300px 0px 0px;
@@ -39,18 +79,122 @@
 
  }
 
+ .delivery-header {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+ }
+
  .delivery {
+    padding-top: 70px;
+    gap: 60px;
     display: flex;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 350px;
+ }
+
+ .delivery img {
+    padding-left: 50px;
  }
 
  .hot-deal {
     display: flex;
+    padding-left: 200px;
+    gap: 150px;
+    padding-top: 100px;
+ }
+
+ #hot-deal-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+
+ .hot-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ #signup-btn {
+    margin-left: 200px;
+    padding: 20px 43px;
+    align-items: center;
+
+ }
+
+
+ .deal-header {
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
  }
 
  .instagram {
     text-align: center;
+    margin-top: 50px;
+ }
+
+ #insta-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+
+ .insta-image {
+    margin-top: 50px;
+ }
+
+ .inasta-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ .leatest-deals {
+    border-radius: 8px;
+    height: 390px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+ }
+
+ .deals-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+
+ #email-field {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 55px;
+    margin-left: 250px;
+ }
+
+ .deals {
+    gap: 20px;
  }
 
  footer {
@@ -61,8 +205,35 @@
     padding-top: 150px;
  }
 
+ footer h2 {
+
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+
+ footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ #footer-copywright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+
  footer h2,
  p {
     text-align: center;
-   
+
  }
